@@ -34,12 +34,11 @@ class Monkey extends Animal{
 
 class Shark extends   Animal{
 
-    @Override
     void GetName() {
         System.out.println(Shark.class);
     }
 
-    @Override
+
     void Feed(Food food) {
         if (food instanceof Fish){
             System.out.println("какая вкусная рыба");
@@ -48,7 +47,6 @@ class Shark extends   Animal{
             System.out.println("Я не обязяна");}
     }
 }
-
 
 interface domestication{
 
