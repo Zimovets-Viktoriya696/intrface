@@ -2,7 +2,10 @@
  * Created by Vika on 21.11.16.
  */
 public abstract class Animal {
-
+    String name;
+    Animal(String name){
+    this.name = name;
+    }
     abstract void GetName();
     abstract void Feed(Food food);
 }
@@ -18,8 +21,12 @@ class Fish extends Food{}
 class Monkey extends Animal{
 
 
+    Monkey(String name) {
+        super(name);
+    }
+
     void GetName() {
-        System.out.println(Monkey.class);
+        System.out.println(name);
     }
 
 
@@ -34,8 +41,12 @@ class Monkey extends Animal{
 
 class Shark extends   Animal{
 
+    Shark(String name) {
+        super(name);
+    }
+
     void GetName() {
-        System.out.println(Shark.class);
+        System.out.println(name);
     }
 
 
@@ -48,10 +59,62 @@ class Shark extends   Animal{
     }
 }
 
-interface domestication{
+class Cat extends Animal implements ITame{
 
-    void go();
-    void sleep();
 
+    Cat(String name) {
+        super(name);
+    }
+
+    @Override
+    void GetName() {
+        System.out.println(name);
+    }
+
+    @Override
+    void Feed(Food food) {
+        if (food instanceof Fish){
+            System.out.println("mrrrrrrr");
+        }
+    }
+
+
+    @Override
+    public void Tame() {
+        System.out.println("приручил");
+    }
+}
+
+class Lion extends Animal implements IKick{
+
+
+    Lion(String name) {
+        super(name);
+    }
+
+    @Override
+    void GetName() {
+        System.out.println(name);
+    }
+
+    @Override
+    void Feed(Food food) {
+        if (food instanceof Fish){
+            System.out.println("It is good");
+        }
+    }
+
+    @Override
+    public void Kick() {
+        System.out.println("ты не можешь меня приручить");
+    }
+}
+
+interface IKick{
+    void Kick();
+}
+
+interface ITame{
+    void Tame();
 }
 
