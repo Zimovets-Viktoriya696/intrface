@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bbdc51e-30e3-4302-81f3-171d62e625df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Animal_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Animal.java" afterPath="$PROJECT_DIR$/src/Animal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Maime.java" afterPath="$PROJECT_DIR$/src/Maime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -78,7 +75,7 @@
       <file leaf-file-name="Animal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="55" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2142">
+            <state line="120" column="0" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -87,10 +84,10 @@
       <file leaf-file-name="Maime.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Maime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.72378516" vertical-offset="193" max-vertical-offset="748">
+            <state line="57" column="49" selection-start="1887" selection-end="1887" vertical-scroll-proportion="1.028133" vertical-offset="567" max-vertical-offset="1258">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#477#485#0" expanded="true" />
+                <element signature="e#1164#1172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -490,7 +487,7 @@
       <created>1480676514124</created>
       <updated>1480676514124</updated>
       <workItem from="1480676518555" duration="3756000" />
-      <workItem from="1480790628832" duration="7148000" />
+      <workItem from="1480790628832" duration="10558000" />
     </task>
     <task id="LOCAL-00001" summary="first&#10;">
       <created>1480677200160</created>
@@ -504,15 +501,19 @@
       <created>1480678001267</created>
       <updated>1480678001267</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gfds&#10;">
+      <created>1480874036023</created>
+      <updated>1480874036023</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10904000" />
+    <option name="totallyTimeSpent" value="14314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="0" width="1339" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -533,8 +534,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25094482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.49962208" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25094482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.49962208" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -557,7 +558,8 @@
     <MESSAGE value="first&#10;" />
     <MESSAGE value="Nu&#10;" />
     <MESSAGE value="gfds" />
-    <option name="LAST_COMMIT_MESSAGE" value="gfds" />
+    <MESSAGE value="gfds&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="gfds&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,7 +588,7 @@
         <state line="12" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#485#0" expanded="true" />
+            <element signature="e#1164#1172#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,17 +602,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="55" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2142">
+        <state line="120" column="0" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Maime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="43" selection-start="968" selection-end="968" vertical-scroll-proportion="0.72378516" vertical-offset="193" max-vertical-offset="748">
+        <state line="57" column="49" selection-start="1887" selection-end="1887" vertical-scroll-proportion="1.028133" vertical-offset="567" max-vertical-offset="1258">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#485#0" expanded="true" />
+            <element signature="e#1164#1172#0" expanded="true" />
           </folding>
         </state>
       </provider>
